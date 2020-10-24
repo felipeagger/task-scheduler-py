@@ -22,11 +22,12 @@ periodic_task agendada para executar a cada 1 minuto.
   # ou 
 
   docker run -d --name task-scheduler -e REDIS_HOST=localhost -p 8088:8088 felipeagger/task-scheduler-huey:latest
-
 ```
 
-  Parar a Aplicacao: make dockerdown  
-
+  Parar a Aplicacao: 
+  ```  
+  make dockerdown  
+  ```  
 
 
 # Links/Observações
