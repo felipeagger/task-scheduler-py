@@ -6,7 +6,9 @@ Python Task scheduler using Huey with Redis
 No Navegador acesse: 
 
 Fazer uma request usando Task Distribuida = http://127.0.0.1:8088/task
-Agendar uma request para 5s = http://127.0.0.1:8088/schedule 
+
+Agendar uma Task para 5s = http://127.0.0.1:8088/schedule 
+
 Fazer uma request com retry caso falhe = http://0.0.0.0:8088/retry
 
 periodic_task agendada para executar a cada 1 minuto.
